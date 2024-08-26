@@ -581,18 +581,18 @@
       "gencad": "",
       "idf": "",
       "netlist": "amplificador-200w.net",
-      "plot": "v2.0.0/",
+      "plot": "v2.1.0/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "amplificador-200w.step",
-      "svg": "",
+      "svg": "v2.1.0/",
       "vrml": ""
     },
     "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/maykolrey.com.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "v2.1.0/amplificador-200w.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -614,6 +614,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
@@ -623,6 +629,12 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfg Part #",
+          "name": "Mfg Part #",
           "show": true
         },
         {
@@ -633,15 +645,9 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -659,12 +665,6 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfg Part #",
-          "name": "Mfg Part #",
           "show": false
         },
         {
@@ -727,7 +727,7 @@
     },
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/maykolrey.com.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "v2.1.0/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
