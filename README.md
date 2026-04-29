@@ -1,11 +1,11 @@
 # TDA7850
 
-Diseño basado en el TDA7850 orientado a amplificación de audio multicanal o automotriz, con PCB preparada para integración práctica.
+Amplificador de audio basado en el **TDA7850**, orientado a una solución multicanal o de alta integración usando un circuito integrado dedicado para audio.
+
+## Propósito del proyecto
+Este proyecto busca concentrar en una sola PCB una etapa de amplificación basada en TDA7850, útil para aplicaciones de audio automotriz, doméstico compacto o prototipos multicanal.
 
 ## Qué incluye
-- esquemáticos o archivos de diseño en KiCad
-- PCB o documentación asociada
-- base reutilizable para análisis, fabricación o mejora del proyecto
-
-## Propósito general
-Este repositorio busca concentrar el diseño de hardware del proyecto en un formato editable y reutilizable, facilitando pruebas, documentación y futuras iteraciones del circuito.
+- esquemático del amplificador
+- diseño PCB en KiCad
+- base práctica para pruebas y fabricación de una etapa de audio integrada
